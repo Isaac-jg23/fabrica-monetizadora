@@ -19,12 +19,13 @@ env = Environment(loader=FileSystemLoader('templates'))
 
 # Lista de temas semilla para la generación masiva
 temas_semilla = [
-    "historia de la ópera", "mejores compositores de ópera", "terminología de ópera",
-    "biografía de Maria Callas", "análisis de 'La Traviata'", "óperas famosas de Mozart",
-    "el papel del director de orquesta", "tipos de voces en la ópera", "vestuario en la ópera",
-    "escenografía de ópera moderna", "festivales de ópera en el mundo", "cómo apreciar la ópera",
-    "la ópera en el cine", "instrumentos en una orquesta de ópera", "críticas de ópera famosas"
+    "¿Cuál es la ópera más difícil de cantar para un tenor?",
+    "Análisis del final alternativo de la ópera Turandot",
+    "El entrenamiento físico y vocal de un cantante de ópera profesional",
+    "¿Por qué los asientos de los teatros de ópera son de terciopelo rojo?",
+    "Guía de etiqueta: Cómo vestirse para una noche de estreno en la ópera"
 ]
+
 
 def limpiar_nombre_para_url(tema):
     """Convierte un tema en un nombre de archivo seguro para URL."""
