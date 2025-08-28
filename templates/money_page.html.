@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ title }}</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, sans-serif; line-height: 1.7; max-width: 800px; margin: 20px auto; color: #333; background-color: #f9f9f9; }
+        h1, h2 { color: #111; }
+        a.button { display: inline-block; background-color: #007bff; color: white; padding: 12px 20px; text-decoration: none; border-radius: 5px; font-weight: bold; margin-top: 10px; }
+        .review-item { border-bottom: 1px solid #eee; padding-bottom: 20px; margin-bottom: 20px; }
+        .disclaimer { font-size: 0.8em; color: #777; font-style: italic; }
+    </style>
+</head>
+<body>
+    <h1>{{ title }}</h1>
+    <p class="disclaimer">Análisis y comparativa por nuestros expertos. Como afiliados de Amazon, podemos ganar una comisión por las compras calificadas realizadas a través de nuestros enlaces, sin costo adicional para ti.</p>
+    <hr>
+    {{ content | safe }}
+</body>
+</html>

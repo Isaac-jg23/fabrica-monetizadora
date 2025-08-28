@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ title }}</title>
+    <style>
+        /* Estilos básicos para que se vea limpio y profesional */
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; 
+            line-height: 1.7; 
+            max-width: 800px; 
+            margin: 40px auto; 
+            padding: 0 20px;
+            color: #333; 
+            background-color: #fdfdfd; 
+        }
+        h1, h2, h3 { 
+            color: #111;
+            line-height: 1.2;
+        }
+        a {
+            color: #0056b3;
+            text-decoration: none;
+            border-bottom: 1px dotted #0056b3;
+        }
+        a:hover {
+            color: #003d82;
+            border-bottom: 1px solid #003d82;
+        }
+        hr {
+            border: 0;
+            height: 1px;
+            background: #ddd;
+            margin: 40px 0;
+        }
+        /* Estilos para el disclaimer de afiliados que pusimos antes, por si lo necesitas en el futuro */
+        .disclaimer { 
+            font-size: 0.8em; 
+            color: #777; 
+            font-style: italic; 
+            text-align: center;
+            border-top: 1px solid #eee;
+            padding-top: 15px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>{{ title }}</h1>
+
+    <hr>
+
+    <div>
+        {{ content | safe }}
+    </div>
+
+    <p class="disclaimer">OperaGuildNova es un archivo independiente. Para sostener nuestro proyecto, este sitio muestra anuncios y puede participar en programas de afiliados.</p>
+
+</body>
+</html>
