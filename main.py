@@ -19,12 +19,28 @@ env = Environment(loader=FileSystemLoader('templates'))
 
 # Lista de temas semilla para la generación masiva
 temas_semilla = [
-    "¿Cuál es la ópera más difícil de cantar para un tenor?",
-    "Análisis del final alternativo de la ópera Turandot",
-    "El entrenamiento físico y vocal de un cantante de ópera profesional",
-    "¿Por qué los asientos de los teatros de ópera son de terciopelo rojo?",
-    "Guía de etiqueta: Cómo vestirse para una noche de estreno en la ópera"
+    "Los 10 mejores binoculares para ver ópera: Guía de compra 2025",
+    "¿Vale la pena pagar por los asientos más caros en la ópera? Análisis de costo-beneficio",
+    "Guía definitiva de los mejores teatros de ópera del mundo para planificar un viaje cultural",
+    "Las 5 grabaciones de 'El Anillo del Nibelungo' de Wagner que todo coleccionista debe tener",
+    "Libros sobre ópera para principiantes: ¿cuáles son esenciales para empezar?",
+    "¿Qué es exactamente un 'leitmotiv' y cómo cambió la música para siempre?",
+    "La ciencia detrás de la voz de un cantante de ópera: ¿cómo producen ese volumen?",
+    "¿Por qué se abuchea en la ópera? El código no escrito del público",
+    "Análisis de las 'arias de locura': La psicología de los personajes femeninos en la ópera",
+    "¿Los cantantes de ópera usan micrófonos? La verdad sobre la amplificación en el teatro",
+    "Maria Callas vs. Renata Tebaldi: El análisis definitivo de la rivalidad más grande de la ópera",
+    "Ópera vs. Musical: ¿Cuáles son las diferencias técnicas y artísticas clave?",
+    "Tenor vs. Barítono: ¿Qué tipo de voz es más difícil de dominar y por qué?",
+    "Verdi vs. Wagner: Dos estilos que definieron el futuro de la ópera",
+    "Producciones modernas vs. tradicionales: ¿Innovación o sacrilegio en la ópera?",
+    "Cómo leer el argumento de una ópera (sinopsis) sin arruinarte las sorpresas",
+    "Glosario de términos de ópera: de 'Aria' a 'Zarzuela' explicado para todos",
+    "Guía para la primera vez en la ópera: 10 cosas que debes saber antes de ir",
+    "¿Cuánto dura una ópera promedio y cómo prepararse para una función larga?",
+    "Protocolo de aplausos en la ópera: ¿Cuándo es correcto aplaudir?",
 ]
+
 
 
 def limpiar_nombre_para_url(tema):
